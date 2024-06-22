@@ -1,0 +1,12 @@
+name: Xbox
+main: TStark\Xbox\Main
+version: 1.0.0
+api: 5.0.0
+author: §bT. Stark
+description: §6View the Xbox profile of players who are online or offline
+website: §ahttps://mcpetools.surge.sh
+website: §chttps://www.youtube.com/@t-starks
+
+permissions:
+  xboxprofile.command:
+    default: true
