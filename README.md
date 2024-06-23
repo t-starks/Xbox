@@ -35,8 +35,10 @@ To use this plugin, simply execute the /xboxprofile <gamertag> command in the ga
 /xboxprofile <player>: View the Xbox profile of the specified player.
 <h3>Permissions</h3>
 xboxprofile.command: Allows the use of the /xboxprofile command.
+  
+## Screenshots
 
-
+![App Screenshot](https://github.com/t-starks/Xbox/blob/15aed1f91a616c8cb3c6ba2840d5fda1b3859697/assets/img/screenshot.png)
 
 
 
