@@ -1,7 +1,7 @@
 # Xbox ![Icon](https://github.com/t-starks/Xbox/blob/8fb1e1c1c449768502cb96bf436c19bbf2279716/icon.png)
+The Xbox plugin for PocketMine-MP allows players to view Xbox profiles directly in-game. By using a simple command, players can retrieve detailed information about a specified Xbox gamertag, including username, gamer score, account tier, and more. This plugin is designed to enhance the gaming experience by providing quick and easy access to Xbox profile data.
 
-
-### 📊 Stats
+<h2>📊 Stats</h2>
 <table border="1">
   <tr>
     <th>Description</th>
@@ -21,23 +21,32 @@
   </tr>
 </table>
 
-### Facility
+<h2>Facility</h2>
+Download the latest release from Poggit.
+Place the downloaded file in the plugins directory of your PocketMine-MP server.
+Restart your server.
 
+<h2>Use</h2>
+To use this plugin, simply execute the /xboxprofile <gamertag> command in the game chat. This will display the Xbox profile information of the specified gamertag in a simple form.
+<h3>Commands</h3>
+/xboxprofile <player>: View the Xbox profile of the specified player.
+<h3>Permissions</h3>
+xboxprofile.command: Allows the use of the /xboxprofile command.
 
-### Use
+<h3>🌐 Web Sites:</h3>
 
-
-### 🌐 Web Sites:
 - [<img src="https://pocketmineschool.netlify.app/favicon.ico" alt="Pocket Mine School" width="40" height="40"/> Pocket Mine School](https://pocketmineschool.netlify.app/)
 - [<img src="https://mcpetools.surge.sh/favicon.ico" alt="MCPETools" width="40" height="40"/> MCPETools](https://mcpetools.surge.sh/)
 
-### Connect with me:
+<h3>Connect with me:</h3>
+
 - [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/sr_shelby02)
 [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@t-starks)
 [![TikTok](https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white)](https://www.tiktok.com/@t.starkofc)
 - [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/t-stark)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/t-starks)
 
-### 💰 You can help me by Donating
+<h3>💰 You can help me by Donating</h3>
+
 [![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/t.stark)
 [![Ko-Fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/tstark)
