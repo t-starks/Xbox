@@ -12,15 +12,15 @@ The Xbox plugin for PocketMine-MP allows players to view Xbox profiles directly 
   </tr>
   <tr>
     <td>API</td>
-    <td><a href="https://poggit.pmmp.io/p/MP3"><img src="https://poggit.pmmp.io/shield.api/MP3" alt="Version"></a></td>
+    <td><a href="https://poggit.pmmp.io/p/Xbox"><img src="https://poggit.pmmp.io/shield.api/Xbox" alt="Version"></a></td>
   </tr>
   <tr>
     <td>Version</td>
-    <td><a href="https://poggit.pmmp.io/p/MP3"><img src="https://poggit.pmmp.io/shield.state/MP3" alt="API"></a></td>
+    <td><a href="https://poggit.pmmp.io/p/Xbox"><img src="https://poggit.pmmp.io/shield.state/Xbox" alt="API"></a></td>
   </tr>
   <tr>
     <td>Downloads</td>
-    <td><a href="https://poggit.pmmp.io/p/MP3"><img src="https://poggit.pmmp.io/shield.dl.total/MP3" alt="Downloads"></a></td>
+    <td><a href="https://poggit.pmmp.io/p/Xbox"><img src="https://poggit.pmmp.io/shield.dl.total/Xbox" alt="Downloads"></a></td>
   </tr>
 </table>
 
