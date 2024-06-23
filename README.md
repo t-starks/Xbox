@@ -1,8 +1,10 @@
-# Xbox ![Icon](https://github.com/t-starks/Xbox/blob/8fb1e1c1c449768502cb96bf436c19bbf2279716/icon.png)
+<h1><img src="icon.png" height="64" width="64" align="left"></img>Xbox</h1><br/>
+<p><img src="assets/img/screenshot.png" height="200" width="350" align="left"></img></p><br/>
 
 The Xbox plugin for PocketMine-MP allows players to view Xbox profiles directly in-game. By using a simple command, players can retrieve detailed information about a specified Xbox gamertag, including username, gamer score, account tier, and more. This plugin is designed to enhance the gaming experience by providing quick and easy access to Xbox profile data.
 
-<h2>📊 Stats</h2>
+</br>
+
 <table border="1">
   <tr>
     <th>Description</th>
@@ -10,15 +12,15 @@ The Xbox plugin for PocketMine-MP allows players to view Xbox profiles directly 
   </tr>
   <tr>
     <td>API</td>
-    <td><a href="https://poggit.pmmp.io/p/Xbox"><img src="https://poggit.pmmp.io/shield.api/Xbox" alt="Version"></a></td>
+    <td><a href="https://poggit.pmmp.io/p/MP3"><img src="https://poggit.pmmp.io/shield.api/MP3" alt="Version"></a></td>
   </tr>
   <tr>
     <td>Version</td>
-    <td><a href="https://poggit.pmmp.io/p/Xbox"><img src="https://poggit.pmmp.io/shield.state/Xbox" alt="API"></a></td>
+    <td><a href="https://poggit.pmmp.io/p/MP3"><img src="https://poggit.pmmp.io/shield.state/MP3" alt="API"></a></td>
   </tr>
   <tr>
     <td>Downloads</td>
-    <td><a href="https://poggit.pmmp.io/p/Xbox"><img src="https://poggit.pmmp.io/shield.dl.total/Xbox" alt="Downloads"></a></td>
+    <td><a href="https://poggit.pmmp.io/p/MP3"><img src="https://poggit.pmmp.io/shield.dl.total/MP3" alt="Downloads"></a></td>
   </tr>
 </table>
 
