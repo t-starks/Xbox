@@ -1,5 +1,5 @@
-<h1><img src="icon.png" height="64" width="64" align="left"></img>Xbox</h1><br/>
-<p><img src="assets/img/screenshot.png" height="200" width="350" align="left"></img></p><br/>
+<h1><img src="https://github.com/t-starks/Xbox/blob/main/icon.png" height="64" width="64" align="left"></img>Xbox</h1><br/>
+<p><img src="https://github.com/t-starks/Xbox/blob/main/assets/img/screenshot.png" height="200" width="350" align="left"></img></p><br/>
 
 The Xbox plugin for PocketMine-MP allows players to view Xbox profiles directly in-game. By using a simple command, players can retrieve detailed information about a specified Xbox gamertag, including username, gamer score, account tier, and more. This plugin is designed to enhance the gaming experience by providing quick and easy access to Xbox profile data.
 
