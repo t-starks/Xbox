@@ -8,9 +8,9 @@ website: §ahttps://mcpetools.surge.sh
 
 commands:
   xboxprofile:
-    description: View player's Xbox profile
-    usage: /xboxprofile <player: target>
-    permission: xboxprofile.command
+    description: "View player's Xbox profile"
+    usage: "/xboxprofile <player: target>"
+    permission: "xboxprofile.command"
 permissions:
   xboxprofile.command:
     default: true
