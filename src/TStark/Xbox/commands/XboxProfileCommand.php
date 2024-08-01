@@ -5,7 +5,6 @@ namespace TStark\Xbox\commands;
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 use pocketmine\player\Player;
-
 use TStark\Xbox\Main;
 
 class XboxProfileCommand extends Command {
@@ -23,10 +22,19 @@ class XboxProfileCommand extends Command {
             $sender->sendMessage("Use this command in-game");
             return;
         }
+
         if (count($args) < 1) {
             $sender->sendMessage("Usage: /xboxprofile <player>");
             return;    
         }
-        Main::xboxProfileForm($sender, $args[0]);
+
+        // Utilizar el argumento TargetPlayerArgument
+        $targetPlayerArgument = new TargetPlayerArgument();
+        if (!$targetPlayerArgument->canParse($args[0], $sender)) {
+            $sender->sendMessage("Invalid player name. Please use a valid player name.");
+            return;
+        }
+
+        Main::xboxProfileForm($sender, $targetPlayerArgument->parse($args[0], $sender));
     }
 }
