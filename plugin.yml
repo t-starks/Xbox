@@ -10,8 +10,8 @@ commands:
   xboxprofile:
     description: "View player's Xbox profile"
     usage: "/xboxprofile <player: target>"
-    permission: "xboxprofile.command"
+    permission: "xbox.command.profile"
 permissions:
-  xboxprofile.command:
+  xbox.command.profile:
     default: true
     description: Allows the user to view Xbox profiles
