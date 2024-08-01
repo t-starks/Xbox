@@ -15,7 +15,7 @@ class XboxProfileCommand extends Command {
     public function __construct(Main $plugin, string $name, string $description, array $aliases = []) {
         parent::__construct($name, $description, null, $aliases);
         $this->plugin = $plugin;
-        $this->setPermission("xboxprofile.command");
+        $this->setPermission("xbox.command.profile");
     }
 
     public function execute(CommandSender $sender, string $label, array $args): void {
