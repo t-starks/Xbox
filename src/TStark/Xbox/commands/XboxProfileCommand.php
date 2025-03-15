@@ -29,6 +29,12 @@ class XboxProfileCommand extends Command implements PluginOwned {
             $sender->sendMessage("Usage: /xboxprofile <player>");
             return;    
         }
-        $this->getOwningPlugin()->xboxProfileForm($sender, $args[0]);
+
+        $plugin = $this->getOwningPlugin();
+        if ($plugin instanceof Main) {
+            $plugin->xboxProfileForm($sender, $args[0]);
+        } else {
+            $sender->sendMessage("§cError: Plugin instance is invalid.");
+        }
     }
 }
