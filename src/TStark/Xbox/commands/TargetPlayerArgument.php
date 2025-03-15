@@ -5,18 +5,9 @@ namespace TStark\Xbox\commands;
 
 use pocketmine\command\CommandSender;
 use pocketmine\network\mcpe\protocol\AvailableCommandsPacket;
-use function is_null;
 use function preg_match;
 
 class TargetPlayerArgument {
-  
-    private bool $optional;
-    private ?string $name;
-
-    public function __construct(bool $optional = false, ?string $name = null) {
-        $this->optional = $optional;
-        $this->name = is_null($name) ? "player" : $name;
-    }
 
     public function getTypeName(): string {
         return "target";
