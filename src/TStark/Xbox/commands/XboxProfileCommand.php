@@ -5,17 +5,22 @@ namespace TStark\Xbox\commands;
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 use pocketmine\player\Player;
+use pocketmine\plugin\PluginOwned;
+use pocketmine\plugin\PluginOwnedTrait;
 
 use TStark\Xbox\Main;
 
-class XboxProfileCommand extends Command {
+class XboxProfileCommand extends Command implements PluginOwned {
     
+    use PluginOwnedTrait;
+
     private $plugin;
 
     public function __construct(Main $plugin, string $name, string $description, array $aliases = []) {
         parent::__construct($name, $description, null, $aliases);
         $this->plugin = $plugin;
         $this->setPermission("xbox.command.profile");
+        $this->owningPlugin = $plugin;
     }
 
     public function execute(CommandSender $sender, string $label, array $args): void {
