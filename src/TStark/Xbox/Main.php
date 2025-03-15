@@ -7,7 +7,7 @@ use TStark\Xbox\tasks\GetInfoTask;
 use pocketmine\Server;
 use pocketmine\player\Player;
 use pocketmine\plugin\PluginBase;
-use TStark\Xbox\SimpleForm;
+
 
 class Main extends PluginBase {
 
@@ -17,15 +17,15 @@ class Main extends PluginBase {
 
     public static function xboxProfileForm(Player $player, string $gt): void {
         $gt_nospace = str_replace(' ', '%20', $gt);
-        $this->getServer()->getAsyncPool()->submitTask(new GetInfoTask($gt_nospace, function (int $results, array $data, ?string $error = null) use ($player, $gt) {      
-            if (!isset($data["code"]) || $data["code"] !== "player.found") {
+        Server::getInstance()->getAsyncPool()->submitTask(new GetInfoTask($gt_nospace, function (int $results, array $data, ?string $error = null) use ($player, $gt) {      
+            if ($data["code"] !== "player.found") {
                 $player->sendMessage("§cError, there is no Xbox gamertag called: " . $gt);
                 return;
             }
-            
+
             $xProfile = (
                 "§aUserName: §f" . $data["data"]["player"]["username"] . "\n" .
-                "§aId: §c" . $data["data"]["player"]["id"] . "\n" .
+                "§aId: §f" . $data["data"]["player"]["id"] . "\n" .
                 "§aGamerScore: §f" . $data["data"]["player"]["meta"]["gamerscore"] . "\n" .
                 "§aAccountTier: §f" . $data["data"]["player"]["meta"]["accountTier"] . "\n" .    
                 "§aXboxOneRep: §f" . $data["data"]["player"]["meta"]["xboxOneRep"] . "\n" .
