@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 namespace TStark\Xbox\commands;
 
@@ -11,14 +11,11 @@ use pocketmine\plugin\PluginOwnedTrait;
 use TStark\Xbox\Main;
 
 class XboxProfileCommand extends Command implements PluginOwned {
-    
-    use PluginOwnedTrait;
 
-    private $plugin;
+    use PluginOwnedTrait;
 
     public function __construct(Main $plugin, string $name, string $description, array $aliases = []) {
         parent::__construct($name, $description, null, $aliases);
-        $this->plugin = $plugin;
         $this->setPermission("xbox.command.profile");
         $this->owningPlugin = $plugin;
     }
@@ -32,6 +29,6 @@ class XboxProfileCommand extends Command implements PluginOwned {
             $sender->sendMessage("Usage: /xboxprofile <player>");
             return;    
         }
-        Main::xboxProfileForm($sender, $args[0]);
+        $this->getOwningPlugin()->xboxProfileForm($sender, $args[0]);
     }
 }
